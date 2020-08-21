@@ -1,0 +1,79 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.icon-image{
+  size: 20px;
+  height: 10px;
+  width:100%;
+}
+
+#header .dark-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  min-height: 700px;
+  background-color:rgba(0 , 0 , 0 , 0.7);
+
+
+ }
+
+ 
+ .find-your-house {
+  background-image:url(../img/aaron-huber-s95oB2n9jng-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height:700px;
+}  
+
+.carousel slide img{
+  width: 50px;
+  height: 70px;
+
+} 
+
+
+.a{
+  text-align: center;
+  size: 20px;
+}
+ 
+
+
+.b{
+  text-align: center;
+  size: 20px;
+}
+ 
+
+.c{
+  text-align: center;
+  /* size: 20px; */
+}
+  
+/* 
+.testimonials{
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+} */
+
+.testimonials{
+  background-color: rgb(115, 206, 23);
+}
+.p-5 {
+  padding: 3rem!important;
+}

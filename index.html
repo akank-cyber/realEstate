@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First Bootstrap website</title>
+
+    <!-- Bootstrap 4 CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <!-- FontAwesome CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+      integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="C:\Users\akank\OneDrive\Desktop\BS4-Realestate\css\style.css" type="text/css" />
+  </head>
+  <body>
+
+    <header class="header">
+      <div class="top-bar bg-dark w-100">
+        <div class="container">
+          <nav class=" navbar bg-transparent  navbar-dark navbar-expand-lg">
+           <a href="#" class="navbar-brand text-uppercase">RealState<span>NY</span></a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse"  data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Main-navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="main-menu" class="collapse navbar-collapse">
+             <ul class="navbar-nav w-100 justify-content-end">
+            <li class="nav-item">
+            <a href="#" class="nav-link">HOME</a>
+           </li>
+           <li class="nav-item">
+           <a href="#" class="nav-link">ABOUT US</a>
+           </li>
+           <li class="nav-item dropdown">
+           <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PROPERTY </a>
+           <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">PROPERTY 1</a>
+              <a href="#" class="dropdown-item">PROPERTY 2</a>
+              <a href="#" class="dropdown-item">PROPERTY 3</a>
+            </div>
+           </li>
+            <li class="nav-item">
+            <a href="#" class="nav-link">CONTACT US</a>
+           </li>
+          </ul>
+          </div>
+        </nav>
+        </div>
+    </div>
+
+  <div class=" carousel slide" id="slide1" data-ride="carousel">
+    <div class="dark-overlay">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://images.unsplash.com/photo-1594540992254-0e2239661647?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="properties for sale">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-md-6">
+              <div class="carousel-caption d-none d-md-block">
+                <h1 class="text-left text-warning">Luxury home in NewYork</h1>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="carousel-caption d-none d-md-block info-block">
+                <h3 class=" btn btn-success d-block py-3">SALE</h3>
+                <p class="price">$825,000</p>
+                <a href="#" class="btn btn-warning d-block">MORE INFO</a>
+              </div>
+             </div>  
+           </div>
+          </div>
+         </div>
+       <div class="carousel-item">
+         <img src="https://images.unsplash.com/photo-1556889380-6e8394ddd7ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="d-block w-100" alt="properties for sale">
+         <div class="carousel-caption d-none d-md-block">
+           <h2 class="display-4">Luxury Homes & Apartment in New York</h2>
+         </div>
+       </div>
+    </div>
+  </div>
+    <!-- carousel-inner -->
+    <a href="#slider" class="carousel-control-prev" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a href="#slider" class="carousel-control-next" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    </div>
+    <section class="container about-us my-auto">
+      <h2 class="text-center mb-5 mt-5">More about Us</h2>
+      <div class="row">
+        <div class="col-sm-4 text-center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTQsBFbXPjz--PKepWPPJwy5ewtr4464I8MTg&usqp=CAU" class="img-fluid mb-4">
+          <h3 class="mb-3 text-uppercase">Settings and trust</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laborum illo esse! Ipsam, provident est?</p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSHdGKpOKxFWOIxKAwW87h9zszFpSvciUtzIA&usqp=CAU" class="img-fluid mb-4">
+          <h3 class="mb-3 text-uppercase">Best Price</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laborum illo esse! Ipsam, provident est?</p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <img src="data:image/png;base64,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" class="img-fluid mb-4">
+          <h3 class="mb-3 text-uppercase">immediate availability </h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem laborum illo esse! Ipsam, provident est?</p>
+        </div>
+      </div>
+    </section> 
+<!-- cards start -->
+    <section class="container properties mt-5">
+      <h2 class="text-center mb-5">Luxury home & Apartments for sale </h2>
+      
+        <div class="row align-items-center">
+         <!-- <div class=" col-md- col-lg-6 col-sm-20"> -->
+            <div class=" card col-md-4 col-sm-20 ">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="property image">
+                <div class="card-body">
+                  <h3 class="card-title">HOME FOR SALE</h3>
+                  <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci.</p>
+                  <p class="card-text card-price text-success">$3,000,000</p>
+                  <ul>
+                    <li>
+                      <img src="https://kishorebabu420.github.io/realtheme/img/icon_bathroom.png">
+                      Bathroom="2"
+                    </li>
+                    <hr>
+                    <li>
+                      <img src="https://kishorebabu420.github.io/realtheme/img/icon_rooms.png">
+                      Bedroom="3"
+                    </li>
+                    <hr>
+                    <li>
+                      <img src="https://kishorebabu420.github.io/realtheme/img/icon_parking.png">
+                      Parking="2"
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn-warning d-block py-2">VEIW PROPERTY</a>
+                </div>
+               </div>
+               <!-- card -->
+             <!-- </div>  -->
+             
+                <div class="col-md-4 col-sm-20">
+                  <div class="card">
+                 <img class="card-img-top" src="https://images.unsplash.com/photo-1580183377265-1aa7761bf11e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="property image">
+                 <div class="card-body">
+                 <h3 class="card-title">HOME FOR SALE</h3>
+                 <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci.</p>
+                 <p class="card-text card-price text-success">$4,000,000</p>
+                 <ul>
+                  <li>
+                    <img src="https://kishorebabu420.github.io/realtheme/img/icon_bathroom.png">
+                    Bathroom="3"
+                  </li>
+                  <hr>
+                  <li>
+                    <img src="https://kishorebabu420.github.io/realtheme/img/icon_rooms.png">
+                    Bedroom="3"
+                  </li>
+                  <hr>
+                  <li>
+                    <img src="https://kishorebabu420.github.io/realtheme/img/icon_parking.png">
+                    Parking="2"
+                  </li>
+                </ul>
+              <a href="#" class="btn btn-warning d-block py-2">VEIW PROPERTY</a>
+            </div>
+           </div>
+           <!-- card -->
+          </div>
+                <div class="col-md-4 col-sm-20">
+                  <div class="card">
+                    
+              <img class="card-img-top" src="https://images.unsplash.com/photo-1522050212171-61b01dd24579?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="property image">
+            <div class="card-body">
+              <h3 class="card-title">HOME FOR SALE</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci.</p>
+              <p class="card-text card-price text-success">$4,000,000</p>
+              <ul>
+                <li>
+                  <img src="https://kishorebabu420.github.io/realtheme/img/icon_bathroom.png">
+                  Bathroom="2"
+                </li>
+                <hr>
+                <li>
+                  <img src="https://kishorebabu420.github.io/realtheme/img/icon_rooms.png">
+                  Bedroom="2"
+                </li>
+                <hr>
+                <li>
+                  <img src="https://kishorebabu420.github.io/realtheme/img/icon_parking.png">
+                  Parking="3"
+                </li>
+              </ul>
+              <a href="#" class="btn btn-warning d-block py-2">VEIW PROPERTY</a>
+            </div>
+           </div>
+           <!-- card -->
+         </div>
+         <!-- card -->
+
+         <hr>
+
+         <div class="col-md-4 col-sm-20 ">
+          <div class="card">
+            
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1523217582562-09d0def993a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="property image">
+    <div class="card-body">
+      <h3 class="card-title">HOME FOR SALE</h3>
+      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci.</p>
+      <p class="card-text card-price text-success">$2,000,000</p>
+      <ul>
+        <li>
+          <img src="https://kishorebabu420.github.io/realtheme/img/icon_bathroom.png">
+          Bathroom="2"
+        </li>
+        <hr>
+        <li>
+          <img src="https://kishorebabu420.github.io/realtheme/img/icon_rooms.png">
+          Bedroom="2"
+        </li>
+        <hr>
+        <li>
+          <img src="https://kishorebabu420.github.io/realtheme/img/icon_parking.png">
+          Parking="2"
+        </li>
+      </ul>
+      <a href="#" class="btn btn-warning d-block py-2">VEIW PROPERTY</a>
+    </div>
+   </div>
+   <!-- card -->
+ </div>
+
+          <!-- card -->
+
+         <div class="col-md-4 col-sm-20 ">
+          <div class="card">
+            
+      <img class="card-img-top" src="https://images.unsplash.com/photo-1588076108950-400366d2b32f?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60" alt="property image">
+    <div class="card-body">
+      <h3 class="card-title">HOME FOR SALE</h3>
+      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci.</p>
+      <p class="card-text card-price text-success">$7,000,000</p>
+      <ul>
+        <li>
+          <img src="https://kishorebabu420.github.io/realtheme/img/icon_bathroom.png">
+          Bathroom="3"
+        </li>
+        <hr>
+        <li>
+          <img src="https://kishorebabu420.github.io/realtheme/img/icon_rooms.png">
+          Bedroom="4"
+        </li>
+        <hr>
+        <li>
+          <img src="https://kishorebabu420.github.io/realtheme/img/icon_parking.png">
+          Parking="3"
+        </li>
+      </ul>
+      <a href="#" class="btn btn-warning d-block py-2">VEIW PROPERTY</a>
+    </div>
+   </div>
+   <!-- card -->
+ </div>
+         <!-- card -->
+                <div class="col-md-4 col-sm-20  ">
+                  <div class="card">
+              <img class="card-img-top" src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="property image">
+            <div class="card-body">
+              <h3 class="card-title">HOME FOR SALE</h3>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, adipisci.</p>
+              <p class="card-text card-price text-success">$5,000,000</p>
+              <ul>
+                <li>
+                  <img src="https://kishorebabu420.github.io/realtheme/img/icon_bathroom.png">
+                  Bathroom="2"
+                </li>
+
+                <hr>
+                <li>
+                  <img src="https://kishorebabu420.github.io/realtheme/img/icon_rooms.png">
+                  Bedroom="3"
+                </li>
+                <hr>
+                <li>
+                  <img src="https://kishorebabu420.github.io/realtheme/img/icon_parking.png">
+                  Parking="2"
+                </li>
+              </ul>
+              <a href="#" class="btn btn-warning d-block py-2">VEIW PROPERTY</a>
+            </div>
+          </div>
+          <!-- card -->
+        </div>
+        <!-- col-md-4 -->
+    </div>
+  </div> 
+      <!-- row -->
+    </section>
+    
+
+
+    <section class="find-your-house my-auto">
+      <div class="container">
+          <div class="row text-warning align-text-center">
+              <div class="col">
+                  <!-- <img src="https://images.unsplash.com/photo-1505873242700-f289a29e1e0f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid d-block" alt="dream house" > -->
+                  <h3 class="a display-4">Find the House of your Dreams</h3>
+                  <p class="b display-5">Contact Us and an Agent will Answer you As Soon as Possible.</p>
+                  <a href="#" class=" btn btn-info py-2 text-uppercase mt-4  text-center ">Contact Us Here</a>
+              </div>
+            </div>
+      </div>
+  </section>
+    </header>
+
+
+    <div class="container mt-5">
+      <div class="row">
+          <div class="col-md-8">
+              <h2 class="text-center mb-5">Our Blog</h2>
+    
+              <div class="row entry mb-4">
+                  <div class="col-md-5">
+                      <img src="https://images.unsplash.com/photo-1577842041275-2da5ff5d6c23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="entry blog">
+                  </div>
+                  <div class="col-md-7">
+                      <h3 class="my-2">"How to buy your first home"
+
+                      </h3>
+                      <p class="meta">
+                          Wirtten at: <span> 20/10/2018 </span> by:<span> Admin </span>
+                      </p>
+                      <p>Mauris malesuada arcu nec felis fermentum tempor. Sed dignissim facilisis purus, quis ornare velit lobortis vitae. In nibh augue, tincidunt nec vulputate sed.</p>
+                      <a href="#" class="btn btn-success py-2 px-5 ">Read More</a>
+                  </div>
+              </div><!--.row entry-->
+              <div class="row entry mb-4">
+                  <div class="col-md-5">
+                      <img src="https://images.unsplash.com/photo-1515094189972-f6f607878a49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="entry blog">
+                  </div>
+                  <div class="col-md-7">
+                      <h3 class="my-2">Beginners Guide for Home Decoration</h3>
+                      <p class="meta">
+                          Wirtten at: <span> 20/10/2018 </span> by:<span> Admin </span>
+                      </p>
+                      <p>Mauris malesuada arcu nec felis fermentum tempor. Sed dignissim facilisis purus, quis ornare velit lobortis vitae. In nibh augue, tincidunt nec vulputate sed.</p>
+                      <a href="#" class="btn btn-success py-2 px-5">Read More</a>
+                  </div>
+              </div><!--.row entry-->
+          </div> <!--.col-md-8-->
+          <div class="col-md-4">
+              <h2 class="text-center mb-5">Testimonials</h2>
+    
+              <div class="testimonials p-5">
+                  <div id="testimonials" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner bg info text-dark py-5 px-5">
+                          <div class="carousel-item">
+                              <p class="testimonial-text display-5">
+                                  Vestibulum et sem sem. Pellentesque habitant morbi tristique senectus et netus et malesuadatum tristique senectus”.
+    
+                                  <span class="d-block text-right mt-4">- Person 1</span>
+                              </p>
+                          </div><!--carousel-item-->
+                          <div class="carousel-item">
+                              <p class="testimonial-text">
+                                  Vestibulum et sem sem. Pellentesque habitant morbi tristique senectus et netus et malesuadatum tristique senectus”.
+    
+                                  <span class="d-block text-right mt-4">- Person 2</span>
+                              </p>
+                          </div><!--carousel-item-->
+                          <div class="carousel-item active">
+                              <p class="testimonial-text">
+                                  Vestibulum et sem sem. Pellentesque habitant morbi tristique senectus et netus et malesuadatum tristique senectus”.
+    
+                                  <span class="d-block text-right mt-4">- Person 3</span>
+                              </p>
+                          </div><!--carousel-item-->
+                      </div><!--.carousel-inner-->
+                  </div> <!--#testimonials-->
+              </div> <!--.testimonials-->
+          </div><!--.col-md-4-->
+      </div> <!--.row-->
+    </div>
+
+    
+    <footer class="footer bg-dark mt-5 py-5">
+      <div class="container">
+          <div class="row align-items-center">
+              <ul class="nav col flex-column flex-md-row text-center">
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">About Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Properties</a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="#" class="nav-link">Contact Us</a>
+                  </li>
+              </ul>
+    
+              <p class="copyright col-md-4 text-center text-md-right m-0 mt-4 mt-md-0 text-light">
+                  2020. All Rights Reserved.
+              </p>
+          </div>
+      </div>
+
+    </footer>
+
+    <!-- Bootstrap 4 Script -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      $('carousel').carousel({
+        interval:200(micro seconds)
+      })
+    </script>
+    <!-- Custom Script -->
+    <script src="js/scrtpt.js"></script>
+  </body>
+</html>
